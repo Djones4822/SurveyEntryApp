@@ -44,7 +44,7 @@ class Main:
 
         #Set Window information, in particular, bind the "return" key to search for respondents given the text entered
         self.master.protocol("WM_DELETE_WINDOW", self.exit_program)
-        self.master.title("REACH Respondent Search")
+        self.master.title("Respondent Search and Survey Entry")
         self.master.minsize(width=850, height=525)
         #self.master.maxsize(width=850, height=525)
         self.master.bind("<Return>", self.respondent_search)
