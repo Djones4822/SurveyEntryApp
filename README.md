@@ -8,7 +8,14 @@ with some minor alterations to suit the needs of the app.
 
 The launching point of this app is "survey_entry_app.py" 
 
-Todo: 
+**Dependencies**:
+- cx_Oracle
+- fuzzywuzzy
+- tkinter
+- time
+- datetime
+
+**Todo**: 
 - Upload example images
 - Convert database and functions to sqlite3 
 - Build sample data so that the tool can be ran locally
