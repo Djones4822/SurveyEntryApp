@@ -6,6 +6,8 @@ Relies on a database schema that follows very closely to this:
 http://www.vertabelo.com/blog/technical-articles/a-database-model-for-an-online-survey-part-2 
 with some minor alterations to suit the needs of the app.
 
+The launching point of this app is "survey_entry_app.py" 
+
 Todo: 
 - Upload example images
 - Convert database and functions to sqlite3 
