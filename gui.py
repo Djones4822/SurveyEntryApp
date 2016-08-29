@@ -52,7 +52,7 @@ class Main:
 
         # Respondent Search outline widget construction
         self.respSearchFrame = tk.Frame(self.master)
-        self.titleLabel = tk.Label(self.respSearchFrame, text="REACH Respondent Search", font=("Times New Roman", 16, 'bold'))
+        self.titleLabel = tk.Label(self.respSearchFrame, text="Respondent Search", font=("Times New Roman", 16, 'bold'))
         self.titleInstructions = tk.Label(self.respSearchFrame, text="Please Enter any part of the respondents name or leave blank to search all")
         self.respSearchStr = tk.StringVar()
         self.respSearchEntry = tk.Entry(self.respSearchFrame, textvariable = self.respSearchStr, width=100)
